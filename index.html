@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRENDSETTERS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TRENDSETTERS</div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">Beranda</a></li>
+                <li><a href="#" onclick="showPage('men')">Sepatu Pria</a></li>
+                <li><a href="#" onclick="showPage('women')">Sepatu Wanita</a></li>
+                <li><a href="#" onclick="showPage('video')">Video</a></li>
+                <li><a href="#" onclick="showPage('contact')">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <input type="text" placeholder="Cari..." class="search-bar">
+            <button class="cart-button">🛒 Keranjang</button>
+            <button class="message-button">📩 Pesan</button>
+        </div>
+    </header>
+    <main>
+        <div id="home" class="page active">
+            <h2>Selamat Datang di TRENDSETTERS</h2>
+            <p>Temukan berbagai pilihan sepatu berkualitas untuk pria dan wanita.</p>
+            <img src="WhatsApp Image 2024-11-04 at 18.39.04.jpeg" alt="Sepatu" class="responsive-image">
+        </div>
+
+        <!-- Halaman Sepatu Pria -->
+        <div id="men" class="page">
+            <h2>Sepatu Pria</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="footwear-5408643_640.jpg" alt="Sepatu Pria 1" class="product-image">
+                    <h3>Air Jordan 1 High True Blue</h3>
+                    <p>Harga: Rp 2.400.000</p>
+                </div>
+                <div class="product">
+                    <img src="ih1326_2_footwear_photography_side_lateral_view_transparent.png" alt="Sepatu Pria 2" class="product-image">
+                    <h3>Adidas SL 72 Tosca</h3>
+                    <p>Harga: Rp 1.100.000</p>
+                </div>
+                <div class="product">
+                    <img src="850d50a6-70dc-4d1a-a7a6-acd0a3566ce2.jpg" alt="Sepatu Pria 3" class="product-image">
+                    <h3>Nike Dunk Low Panda Black White</h3>
+                    <p>Harga: Rp 1.850.000</p>
+                </div>
+                <div class="product">
+                    <img src="0250a067-0cc1-416f-98a2-d9efad922d5b.jpg" alt="Sepatu Pria 4" class="product-image">
+                    <h3>Adidas Yeezy 350 v2 Cloud White</h3>
+                    <p>Harga: Rp 650.000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Halaman Sepatu Wanita -->
+        <div id="women" class="page">
+            <h2>Sepatu Wanita</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="louis_vuitton_lv_original_1625503367_7b23d1a5_progressive.jpg" alt="Sepatu Wanita 1" class="product-image">
+                    <h3>Louis Vuitton Original</h3>
+                    <p>Harga: Rp 2.550.000</p>
+                </div>
+                <div class="product">
+                    <img src="bfaba4fa-3b3d-4575-94b4-8a65436ef54e.jpg" alt="Sepatu Wanita 2" class="product-image">
+                    <h3>Jordan Nike Air 1 Mid Digital Pink</h3>
+                    <p>Harga: Rp 1.650.000</p>
+                </div>
+                <div class="product">
+                    <img src="958fecd5-66da-44e6-9e3c-21a8d2bcd16f.jpg" alt="Sepatu Wanita 3" class="product-image">
+                    <h3>CONVERS Wedges High</h3>
+                    <p>Harga: Rp 1.700.000</p>
+                </div>
+                <div class="product">
+                    <img src="1a433470-cc3a-46b3-a966-d1c0440908e7.jpg" alt="Sepatu Wanita 4" class="product-image">
+                    <h3>SIO MM082</h3>
+                    <p>Harga: Rp 700.000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Halaman Video -->
+        <div id="video" class="page">
+            <h2>Video Pilihan</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/HEB1YN-pho0" frameborder="0" allowfullscreen></iframe>
+            <p>Video ini menjelaskan tentang koleksi sepatu terbaru kami.</p>
+        </div>
+
+        <!-- Halaman Kontak -->
+        <div id="contact" class="page">
+            <h2>Kontak Kami</h2>
+            <p>Hubungi kami di email: <a href="mailto:info@TRENDSETTERS.com">info@TRENDSETTERS.com</a></p>
+            <p>Atau kunjungi kami di alamat:</p>
+            <address>
+                Jl. Pattimura No. 14<br>
+                Jakarta, Indonesia
+            </address>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TRENDSETTERS. Semua Hak Dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
